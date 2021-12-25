@@ -13,6 +13,12 @@ public class MusicController {
     @Autowired
     MusicService musicService;
 
+    @GetMapping("/all")
+    public List<Music> getAllnew(){
+        return  musicService.findAll();
+    }
+
+
     @GetMapping
     public List<Music> getAll(){
         return  musicService.findAll();
