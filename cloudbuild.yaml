@@ -4,4 +4,4 @@ steps:
 timeout: "3200s"
 
 options:
-  logging: LEGACY
+  logging: CLOUD_LOGGING_ONLY
