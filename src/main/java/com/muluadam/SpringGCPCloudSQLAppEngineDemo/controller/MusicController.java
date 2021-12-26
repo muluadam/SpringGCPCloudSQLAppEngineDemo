@@ -17,6 +17,10 @@ public class MusicController {
     public List<Music> getAllnew(){
         return  musicService.findAll();
     }
+    @GetMapping("/new")
+    public List<Music> get(){
+        return  musicService.findAll();
+    }
 
 
     @GetMapping
